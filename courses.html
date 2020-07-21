@@ -7,54 +7,68 @@ body{
     margin-bottom: 0px;
 
   }
-  .blue{
-    background-color: #40dc46;
-    color:#fbfafa;
-    margin-left: 50px;
-    border:2px solid lightgray;
-    padding-left:20px;
-    padding-right:25px;
-    padding-top:5px;
-    padding-bottom:5px;
-    border-radius: 10px;
-  }
-  .gray{
-    background-color: #bcb6b6;
-    color:white;
-    border:2px solid lightgray;
-    padding-left:25px;
-    padding-right:25px;
-    padding-top:5px;
-    padding-bottom:5px;
-    border-radius: 10px;
 
+li,a{
+    text-decoration:none;
+    color:white;
   }
-.icon{
-  width:100%;
-  height:50px;
-    align-items:center;
-  font-size:2rem;
-  background-color:blue;
+
+
+   a.design:hover{
+    background-color: blue;
+    color:green;
+    padding-top:3%;
+    padding-right:10%;
+    padding-bottom:3%;
+    padding-left:10%;
+    border:2px blue;
+    margin-top:2%;
+    margin-left:3%;
+   }
+   .icon{
+    line-height: 20px;
+  padding:30px;
+  border:6px solid red;
+  border-radius: 50%;
+  height:70px;
+  color:red;
+
+}
+i{
+  font-weight:bold;
+
+}
+.box{
+  padding-top:20%;
+  text-align:center;
+  font-size:130%;
+  padding-bottom:7%;
+}
+.boxs{
+  padding-top:15%;
+  text-align:center;
+  font-size:150%;
 }
 button{
   background-color: blue;
 }
 
 .block{
+  top:0px;
+  left:-15px;
   padding-top:50;
-  margin-top: 385px;
-  margin-left:-18;
   width:250px;
   height:100%;
   background-color:#272634;
   position:fixed;
   display:none;
   z-index:100;
+  transition:transform 2s linear;
     }
 
 .point{
-  transition:transform 2s linear;
-  padding-left:20px;
+  margin-top: 5px;
+  padding-left:5px;
   cursor:pointer;
   font-size: 150%;
 }
@@ -72,17 +86,10 @@ a:visited{
 .footer{
   background-color:darkgreen;
   color:white;
-  padding-bottom:0;
+
+  padding-top:20;
 }
-.row{
-  padding:20px;
-}
-.column{
-  display:inline-block;
-  width: 23%;
-  margin-left:15;
-  padding:0;
-}
+
 a{
   text-decoration: none;
 }
@@ -96,65 +103,47 @@ a:visited{
 a:hover{
   color:purple;
 }
-.comments{
-  display:inline-block;
-  width:50%;
-}
 
-
-.icon{
-  padding:15px;
-  border:2px solid white;
-  border-radius: 50%;
-  height:70px;
-}
-.bottom{
-   display:inline-block;
-  width:45%;
-}
-
-.back{
-  background-image: url('front.webp');
-  width:100%;
-  height:600px;
-   
 }
 .bod{
   position:fixed;
   background-color: #b22d27;
-    border:4px solid blue;
-    height:30;
-    text-align:center;
-    width:120;
-    margin-left:-30;}
+  border:4px solid blue;
+  height:30;
+  text-align:center;
+  width:100px;
+  margin-left:-22;
+  margin-top:5px;}
 
 .time{
   position:fixed;
-  width:100;
-  height:120;
+  width:100px;
+  height:11%;
   margin-top: 0px;
   background-color:#b22d27;
   color:white;
   text-align:center;
-  margin-left:1400;
-  padding:15;
-    border:6px solid blue;
-    border-radius: 100%;
-    height:112;
-     z-index:50;
+  margin-left:5%;
+  padding:12;
+  padding-top:20;
+  border:6px solid blue;
+  border-radius: 100%;
+  height:112;
+  z-index:50;
+  font-size:92%;
 }
 .head{
-    background-image: url('sty4.jpg');
-  width:95%;
-  height:500px;
+background-image:  url('sty4.jpg');
+  width:100%;
+  height:60%;
   position: absolute;
-  left:50%;
-  top:350%;
+  left:60%;
+  top:65%;
   transform:translate(-50%,-50%);
     
     background-size: 100%,100%;
     box-shadow: 1px 2px 10px 15px;
-    animation: slider 30s infinite linear;
+    animation: slider 30s infinite linear ;
 
     }
   @keyframes slider{
@@ -164,19 +153,23 @@ a:hover{
     75%{ background-image: url("sty1.jpg");}
     
 }
-.row{
-  height:100;
-  width:1100;
+.rows{
+  height:20%;
+  width:100%;
   margin:auto;
-  margin-bottom:320;
+  margin-bottom:10%%;
 }
 
 
+
 </style>
-  <head>
-  <head>
-<meta charset="UTF-8">
-<meta name="viewport"  content="width=device-width,initial-scale=1.0" >    
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="e-learning classes">
+  <meta name="keywords" content=" python,b-tech syllabus,java,hacking, c,c++,HTML, CSS, JavaScript">
+  <meta name="author" content="NIKHIL GUPTA">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="stylesheet" href="css.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -185,6 +178,7 @@ a:hover{
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+<link rel="stylesheet" href=" http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/fonts/fontawesome-webfont.woff?v=4.2.0">
 
  </head>
  
@@ -194,9 +188,14 @@ a:hover{
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <span class="point" onclick="myfunc()" >&#9776;</span></div>
-  <div class="block" id="nav">
+  
+   <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active"> 
+         <span class="point" onclick="myfunc()" style="color:gray;">&#9776;</span></div>
+   <div class="block" id="nav">
     <button><span class="points" id="cut" onclick="myfuncn()" >X</span></button>
        <div style="padding:10;font-size:125%;margin-left:30;padding-bottom: 15">
         <a href="signup.html" >SIGN UP</a>
@@ -213,7 +212,7 @@ a:hover{
        <div style="padding:10;font-size:125%;margin-left:30;padding-bottom: 15">
         <a href="#">CONTACTS</a>
        </div>
-    <script>
+<script>
 function myfunc(){
   document.getElementById('nav').style.display="block";
 }
@@ -223,7 +222,6 @@ function myfuncn(){
 </script>
     </div>
     <img src="learning.jpg" alt="logo" width=100; height=50>
-
     <a class="navbar-brand" href="index.html" style="color:green; margin-left:20;"><b>HOME</b></a>
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
      <li>
@@ -287,12 +285,31 @@ function myfuncn(){
   
     </div></div>
 
+<div class="back">
+  <div class="time">
+  <p id="Time" ></p><p id="ti"><p id="di" class="bod"></p></p>
+  
+  <script type="text/javascript">
+  var clock=setInterval(clockt,1000)
+  function clockt(){  
+  var d = new Date();
+  var n = d.toLocaleTimeString();
+  document.getElementById("Time").innerHTML=n}
+  var d = new Date();
+  var myDay = d.getDay(); 
+  day=["Sun","Mon","Tue","Wed","Thur","Fri","Sut"]
+  document.getElementById("ti").innerHTML=day[myDay]
+
+    var dt = new Date();
+    document.getElementById("di").innerHTML = dt.toLocaleDateString(); 
+  
+    </script>
+</div>
+
 <style type="text/css">
-.fixed{
-	width:1550px;
-	height:500px;
-}	
+
 </style>
+
 <div class="fixed">
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -301,9 +318,12 @@ function myfuncn(){
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
+  
+  <div class="row">
+    <div class="col-lg-12 col-sm-10">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="sty1.jpg" class="d-block w-100" alt="..."height="500" >
+      <img src="sty1.jpg" class="d-block w-100" alt="..." height= 500px >
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -338,106 +358,118 @@ function myfuncn(){
   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
-</div></div>
+  </a></div></div></div>
+</div>
 
 <body>
 
+<div class="container" style="padding-top: 30px;">
+<div class="row">
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardone">
+  <img src="physics.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">PHYSICS CLASS</h5>
+    
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div>
+</div>
+</div>
+
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardtwo">
+  <img src="maths.jpg"  height = 180 class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">MATHEMETICS CLASS</h5>
+    
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardthree" >
+  <img src="electrical.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ELECTRICAL CLASS</h5>
+   
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardfour">
+  <img src="compu.jpg" height = 200 class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">COMPUTER SCIENCE CLASS</h5>
+  
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div>
+</div></div>
+
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardfive" >
+  <img src="chemistry.jpg" height = 200 class="card-img-top" alt="...">
+  
+  <div class="card-body">
+    <h5 class="card-title">CHEMISTRY CLASS</h5>
+  
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div>
+</div></div>
+
+<div class="col-lg-4 col-sm-10">
+<div class="card" id="cardsix">
+  <img src="eng.jpg" height=200 class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">ENGLISH CLASS</h5>
+   
+    <a href="#" class="btn btn-primary">Go TO Course</a>
+  </div></div>
+
+</div></div></div>
 <script>
   $(document).ready(function(){
     $(window).scroll(function(){
       var top = $(document).scrollTop();
       console.log(top);
     
-    if ((top > 500 )&&(top<1800)){
-      $('#cardone').addClass("animated bounceInLeft");
-      $('#cardtwo').addClass("animated bounceInLeft");
-        $('#cardthree').addClass("animated bounceInLeft");
-      $('#cardfour').addClass("animated bounceInRight");
-      $('#cardfive').addClass("animated bounceInRight");
-        $('#cardsix').addClass("animated bounceInRight");
+    if ((top > 850 )&&(top>1100)){
+      $('#cardone').addClass("animated zoomInDown");
+      $('#cardtwo').addClass("animated zoomInDown");
+        $('#cardthree').addClass("animated zoomInDown");}
+    if ((top > 950 )&&(top<1400)){   
+      $('#cardfour').addClass("animated zoomInDown");
+      $('#cardfive').addClass("animated zoomInDown");
+        $('#cardsix').addClass("animated zoomInDown");
     }
     
     })
 
   })
 </script>
-</body>
-<div class="row" style="margin-left:250;">
-<div class="card " id="cardone" style="width: 18rem; margin-right:50; margin-left: 40;">
-  <img src="physics.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">PHYSICS CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div>
-<div class="card" id="cardtwo"  style="width: 18rem; margin-right:50;">
-  <img src="maths.jpg"  height = 180 class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">MATHEMETICS CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div>
-<div class="card" id="cardthree"  style="width: 18rem;">
-  <img src="electrical.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">ELECTRICAL CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div></div>
-<div class="row" style="margin-left:250;">
-<div class="card" id="cardfour" style="width: 18rem; margin-right:50; margin-left: 40;">
-  <img src="compu.jpg" height = 180 class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">COMPUTER SCIENCE CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div>
-<div class="card" id="cardfive" style="width: 18rem; margin-right:50;">
-  <img src="chemistry.jpg" height = 180 class="card-img-top" alt="...">
-  
-  <div class="card-body">
-    <h5 class="card-title">CHEMISTRY CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div>
-<div class="card" id="cardsix" style="width: 18rem;">
-  <img src="eng.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">ENGLISH CLASS</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go TO Course</a>
-  </div>
-</div></div>
-
-
-<footer style="padding-top:30">
+<footer>
   <div class="footer">
-    <div class="row">
-      <div class="column">
-        <h3>HISTRY:</h3>
-        <P>Study.com has engaging online history courses in US history, world history, western civilization, and more! Our self-paced video lessons can help you study for exams, earn college credit, or boost your performance in history classes. Choose a course and prepare to improve your knowledge!Study.com has engaging online history courses in US history, world history, western civilization, and more! Our self-paced video lessons can help you study.</P> 
+    <div class="container">
+      <div class="row">
+         <div class="col-lg-6  col-sm-10"><h3>HISTRY:</h3>
+        <P>Study.com has engaging online history courses in US history, world history, western civilization, and more! Our self-paced video lessons can help you study for exams, earn college credit, or boost your performance in history classes. Choose a course and prepare to improve your knowledge!Study.com has engaging online history courses in US history, world history, western civilization, and more! Our self-paced video lessons can help you study.</P> </div>
 
-      </div>
-      <div class="column">
-        <h3>SUBJECTS:</h3>
-        <ul >
+           <div class=" col-lg-3  col-sm-10">
+            <h3>SUBJECTS:</h3>
+            <ul >
           <li><a href="#">PHYSICS</a></li>
           <li><a href="#">METHEMETICS</a></li>
           <li><a href="#">ELECTRICALS</a></li>
           <li><a href="#">COMPUTER SCIENCE</a></li>
           <li><a href="#">CHEMISTRY</a></li>
           <li><a href="#">ENGLISH</a> </a></li>
-        </ul>
-
-      </div>  
-          <div class="column">
-            <h3>PLANS:</h3>
+        </ul></div>
+         <div class=" col-lg-3  col-sm-10"> <h3>PLANS:</h3>
         <ul>
           <li><a href="#">Student Solutions</a></li>
           <li><a href="#">Teacher Solutions</a></li>
@@ -445,62 +477,64 @@ function myfuncn(){
           <li><a href="#">COMPUTER SCIENCE</a></li>
           <li><a href="#">Working Scholars Solutions</a></li>
           <li><a href="#">Digital learning</a> </a></li>
-        </ul>
-      </div>
-        <div class="column">
-            <h3>ABOUT US:</h3>
+        </ul></div>
+        <div class="container">
+      <div class="row">
+           
+         <div class=" col-lg-3  col-sm-10"> 
+        <ul>
+         <h3>ABOUT US:</h3>
         <ul>
           <li><a href="#">Blog</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Get Your School Listed</a></li>
           <li><a href="#">Teach For Us</a></li>
           <li><a href="#">Press Center</a></li>
-          </ul>
-           </div>
-            
-      
-             </div>
-             <div style="text-align:center;font-size:30px;padding-top:20px;padding-bottom: 20px">
+          </ul></div>
+          <div class=" col-lg-5  col-sm-10"> 
+      <div class="box" >
               <a href="#" class="icon"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a class="icon" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
               <a class="icon" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
               <a class="icon" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-         </div>
-    <div class="bottom" >     
-    <div style="text-align: center;font-size:25; padding-top:30px;">
-    <div>      
-    <a class="icon" style= "padding-top:10px;" href="https://maps.app.goo.gl/cruq9EYgMDnyTfxi8"><i class="fa fa-map-marker"></i></a>
-    <p style= "padding-top:10px;"><span>21 Revolution Street</span> Dubagga lucknow, India</p>
-    </div>
-    <div>
-    <a class="icon" style= "padding-top:10px;" href="#"><i class="fa fa-phone"></i></a>
-    <p style= "padding-top:10px;">+91 7080057612</p>
-    </div>
- 
-    <div>
-    <a class="icon" style= "padding-top:10px;" href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a>
-    <p style= "padding-top:10px;"><a href="karan1907@gmail.com">karan1907@gmail.com</a></p>
-    </div>
-  </div>
- 
-    </div>
-      <div class="bottom" >
-       <div style="padding-top: 50px;">
+         
+     </div>
+         
+      </div>
+          <div class="col-lg-4 col-sm-10">
         <h2>COMMENTS:</h2>
-        <textarea style="width:700; height:200; background-color:#f3f3f3;"name="comments" placeholder="THANKYOU FOR COMMENTS!!"></textarea>
-      <div class="comment" style="margin-top: 20px;">
-      <input type="text" placeholder="NAME:*" size=30; style="margin-left:60;">   
-      <input type="text" placeholder="EMAIL:*" size=30; style="margin-left:100;">
+        <textarea style="width:100%; height:90%; background-color:#f3f3f3;"name="comments" placeholder="THANKYOU FOR COMMENTS!!"></textarea>   
+      <input type="text" placeholder="EMAIL:*" style="width:90%;height:15% ; margin-top:3%;">
+      <input type="text" placeholder="NAME:*"  style="width:45%;height:15%; margin-top:3%;">
+      <a href="#" class="design"type="submit" style=" ">COMMENT</a></div>
+      
+       <div class="container">
+       <div class="row">
+       <div class="col-lg-6 col-sm-10">     
+    <div class="boxs">
+    <div>      
+    <a class="icon"  href="https://maps.app.goo.gl/cruq9EYgMDnyTfxi8"><i class="fa fa-map-marker"></i></a>
+    <p style= "padding-top:7%;padding-bottom:6%;"><span>21 Revolution Street</span> Dubagga lucknow, India</p>
     </div>
-    <div style="margin-top: 20px; padding-bottom:10px">
-      <button type="submit" style=" margin-left:240;background-color: blue;color:green;padding-top:15px;padding-right:70px;padding-bottom:15px;padding-left:70px; border:2px blue;">COMMENT</button>
-      </div>
-      </div>
+    <div>
+    <a class="icon" href="#"><i class="fa fa-phone"></i></a>
+    <p style= "padding-top:7%; padding-bottom:6%;">+91 7080057612</p>
     </div>
-
-    <div style="background-color:darkolivegreen; text-align:center;padding:10px;">contact to admin: nikhillko02@gmail.com
-    </div>  
-
+ 
+    <div>
+    <a class="icon"  href="https://mail.google.com/mail/u/0/#inbox"><i class="fa fa-envelope"></i></a>
+    <p style= "padding-top:7%;"><a href="karan1907@gmail.com">karan1907@gmail.com</a></p>
+    </div>
+    </div>
+        </div>
+<div class="col-lg-6 col-sm-10">
+<div class="head" style="padding-top:%;"></div>
+</div>
+</div>
+</div> 
+   </footer>
+ <div style="background-color:darkolivegreen; text-align:center;padding:10px;">contact to admin: nikhillko02@gmail.com
+    </div>
 
   </body>
 </html> 
